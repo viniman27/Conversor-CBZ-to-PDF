@@ -27,7 +27,7 @@ def convert_images_to_pdf(image_paths: list[str], output_pdf_path: str) -> None:
 
 def main():
     # Pasta contendo os CBZ/CBR
-    input_folder = "/Users/viniciusassumpcao/Documents/Códigos/ConversorCBZ/HqsIneditas"
+    input_folder = "" 
     output_folder = os.path.join(input_folder, "PDFs")
     os.makedirs(output_folder, exist_ok=True)
 
